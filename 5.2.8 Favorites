@@ -1,0 +1,6 @@
+speed(0)
+penup()
+goto(-120,0)
+color("blue")
+write("My Fav Color Is generic color", font=("Arial", 20))
+print("My Fav Band is generic band name")
