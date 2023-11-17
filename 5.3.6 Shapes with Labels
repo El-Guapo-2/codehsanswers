@@ -1,0 +1,28 @@
+circle_color = "red"
+circle_radius = 50
+square_color = "blue"
+speed(0)
+square_width = circle_radius * 2
+penup()
+goto(-100,0)
+pendown()
+begin_fill()
+color(circle_color)
+circle(circle_radius)
+end_fill()
+penup()
+goto(-150,-15)
+color("black")
+write(("red circle with radius of 50"))
+goto (100,0)
+pendown()
+color("blue")
+begin_fill()
+for i in range(4):
+    forward(100)
+    left(90)
+end_fill()
+penup()
+goto(50,-15)
+color("black")
+write(("blue square with width of 100"))
