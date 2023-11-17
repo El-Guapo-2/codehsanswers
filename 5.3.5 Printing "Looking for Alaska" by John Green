@@ -1,0 +1,6 @@
+author = "John Green"
+title = "Looking for Alaska"
+
+print(author)
+print(title)
+("I laughed and nodded my head at him (thats cool, right? the nod?) and said, Im Miles Halter. Nice to meet you. Miles as in to go before I sleep? he asked me. Huh? Its a Robert Frost poem. Youve never read him? I shook my head no. Consider yourself lucky. He smiled.")
