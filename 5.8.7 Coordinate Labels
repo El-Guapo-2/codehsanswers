@@ -1,0 +1,10 @@
+draw_background() # This will load the background of the program
+
+# Define your move_and_label function below
+def move_and_label(x,y):
+    goto(x,y)
+    label = "x: {}, y: {}"
+    write(label.format(x,y), align="center")
+# Call the move_and_label function when the user clicks the canvas
+canvas = getscreen()
+canvas.onclick(move_and_label)
