@@ -1,0 +1,10 @@
+penup()
+setposition(-200 -200)
+for i in range (8):
+    pendown()
+    circle(25)
+    pen_up()
+    forward(50)
+    left(90)
+    forward(50)
+    turn_right(90)
