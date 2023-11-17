@@ -1,0 +1,15 @@
+speed(0)
+draw_background() # This will load the background of the program
+sound = "chirp"
+
+# Write your commands below:
+left(90)
+penup()
+forward(20)
+right(90)
+write(("chirp"))
+forward(100)
+write(("CHIRP"))
+right(180)
+forward(200)
+write(("CHIRP"))
