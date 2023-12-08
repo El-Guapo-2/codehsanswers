@@ -1,0 +1,21 @@
+speed(0)
+def increase(x,y):
+    canvas.count += 1
+    color("white")
+    backward(50)
+    begin_fill()
+    for i in range(4):
+        forward(100)
+        left(90)
+    end_fill()
+    forward(50)
+    color("black")
+    write(canvas.count, font=("Futura",40), align="center")
+penup()
+goto(0,150)
+write("Click Counter", font=("Futura",40), align="center")
+goto(0,-50)
+write("0", font=("Futura",40), align="center")
+canvas = getscreen()
+canvas.count = 0
+canvas.onclick(increase)
